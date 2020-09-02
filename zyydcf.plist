@@ -55,7 +55,7 @@
 					<string>software-package</string>
 					<key>url</key>
 					<!-- 需要安装的ipa包在服务器的路径 -->
-					<string>https://github.com/MrBruce01/zyydcf/MH_WardRound.ipa</string>
+					<string>https://github.com/MrBruce01/zyydcf/blob/master/MH_WardRound.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -64,7 +64,7 @@
 					<true/>
 					<key>url</key>
 					<!-- 安装时需要显示的大图标（1024*1024）在服务器的路径 -->
-					<string>https://github.com/MrBruce01/zyydcf/icon.png</string>
+					<string>https://github.com/MrBruce01/zyydcf/blob/master/icon.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -73,7 +73,7 @@
 					<true/>
 					<key>url</key>
 					<!-- 安装时需要显示的小图标（180*180）在服务器的路径 -->
-					<string>https://github.com/MrBruce01/zyydcf/icon.png</string>
+					<string>https://github.com/MrBruce01/zyydcf/blob/master/icon.png</string>
 				</dict>
 			</array>
 		</dict>
