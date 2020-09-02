@@ -2,80 +2,43 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>MH_WardRound.ipa</key>
+	<key>items</key>
 	<array>
 		<dict>
-			<key>architectures</key>
-			<array>
-				<string>armv7</string>
-				<string>arm64</string>
-			</array>
-			<key>certificate</key>
-			<dict>
-				<key>SHA1</key>
-				<string>E14B4AE4090E3D01B5499AAE44F1BE5DB5742D44</string>
-				<key>dateExpires</key>
-				<string>2023/2/8</string>
-				<key>type</key>
-				<string>iOS Distribution</string>
-			</dict>
-			<key>entitlements</key>
-			<dict>
-				<key>application-identifier</key>
-				<string>3HE5TDC9QX.cn.com.zysoft.MHW</string>
-				<key>com.apple.developer.team-identifier</key>
-				<string>3HE5TDC9QX</string>
-				<key>get-task-allow</key>
-				<false/>
-				<key>keychain-access-groups</key>
-				<array>
-					<string>3HE5TDC9QX.cn.com.zysoft.MHW</string>
-				</array>
-			</dict>
-			<key>name</key>
-			<string>智业移动查房.app</string>
-			<key>profile</key>
-			<dict>
-				<key>UUID</key>
-				<string>b39f59fd-3980-44d8-a2b2-6a43b9bdacc7</string>
-				<key>name</key>
-				<string>iOS Team Inhouse Provisioning Profile: cn.com.zysoft.MHW</string>
-			</dict>
-			<key>team</key>
-			<dict>
-				<key>id</key>
-				<string>3HE5TDC9QX</string>
-				<key>name</key>
-				<string>Xiamen Zoenet Tech Co.Ltd.</string>
-			</dict>
 			<key>assets</key>
 			<array>
 				<dict>
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<!-- 需要安装的ipa包在服务器的路径 -->
 					<string>https://github.com/MrBruce01/zyydcf/blob/master/MH_WardRound.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
-					<string>full-size-image</string>
-					<key>needs-shine</key>
-					<true/>
+					<string>display-image</string>
 					<key>url</key>
-					<!-- 安装时需要显示的大图标（1024*1024）在服务器的路径 -->
-					<string>https://github.com/MrBruce01/zyydcf/blob/master/icon.png</string>
+					<string>https://github.com/MrBruce01/zyydcf/blob/master/image57x57.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
-					<string>display-image</string>
-					<key>needs-shine</key>
-					<true/>
+					<string>full-size-image</string>
 					<key>url</key>
-					<!-- 安装时需要显示的小图标（180*180）在服务器的路径 -->
-					<string>https://github.com/MrBruce01/zyydcf/blob/master/icon.png</string>
+					<string>https://github.com/MrBruce01/zyydcf/blob/master/image512x512.png</string>
 				</dict>
 			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>cn.com.zysoft.MHW</string>
+				<key>bundle-version</key>
+				<string>1.08</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>platform-identifier</key>
+				<string>com.apple.platform.iphoneos</string>
+				<key>title</key>
+				<string>智业移动查房2</string>
+			</dict>
 		</dict>
 	</array>
 </dict>
